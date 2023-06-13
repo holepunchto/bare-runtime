@@ -4,12 +4,15 @@
   "description": "Get the bare runtime",
   "main": "index.js",
   "bin": {
-    "bare": "bin/bare.exe"
+    "bare": "./bin/bare.exe",
+    "bare-dev": "./bin/bare-dev.js"
   },
   "scripts": {
     "install": "./install.js"
   },
-  "dependencies": {},
+  "dependencies": {
+    "bare-dev": "^0.2.17"
+  },
   "optionalDependencies": {
     "@holepunchto/bare-runtime-darwin-arm64": "0.0.0",
     "@holepunchto/bare-runtime-darwin-x64": "0.0.0",
