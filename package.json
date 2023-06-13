@@ -1,5 +1,5 @@
 {
-  "name": "bare-runtime",
+  "name": "@holepunchto/bare-runtime",
   "version": "0.0.0",
   "description": "Get the bare runtime",
   "main": "index.js",
