@@ -1,7 +1,8 @@
-# bare-runtime
+# @holepunchto/bare-runtime
 
-Get the bare runtime without building it
+Get the bare runtime without building it - mostly for ci atm
 
 ```
-npm install -g bare-runtime
+npm install -g @holepunchto/bare-runtime
+bare
 ```

@@ -1,0 +1,16 @@
+{
+  "name": "@holepunchto/bare-runtime-linux-x64",
+  "version": "0.0.0",
+  "description": "The Linux Intel 64-bit binary for bare",
+  "repository": "https://github.com/holepunchto/bare-runtime",
+  "license": "UNLICENSED",
+  "bin": {
+    "bare": "./bare"
+  },
+  "os": [
+    "linux"
+  ],
+  "cpu": [
+    "x64"
+  ]
+}

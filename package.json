@@ -3,8 +3,18 @@
   "version": "0.0.0",
   "description": "Get the bare runtime",
   "main": "index.js",
+  "bin": {
+    "bare": "bin/bare.exe"
+  },
+  "scripts": {
+    "install": "./install.js"
+  },
   "dependencies": {},
-  "devDependencies": {},
+  "optionalDependencies": {
+    "@holepunchto/bare-runtime-darwin-arm64": "0.0.0",
+    "@holepunchto/bare-runtime-darwin-x64": "0.0.0",
+    "@holepunchto/bare-runtime-linux-x64": "0.0.0"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/holepunchto/bare-runtime.git"
