@@ -2,15 +2,11 @@
 
 const fs = require('fs')
 const path = require('path')
-const mod = require.resolve('@holepunchto/bare-runtime-' + process.platform + '-' + process.arch + '/package.json')
 
-// bare.exe is a windows hack
-const bin = path.join(__dirname, 'bin', 'bare.exe')
+const { platform, arch } = process
 
-if (fs.existsSync(bin)) fs.unlinkSync(bin)
+const mod = require.resolve(`@holepunchto/bare-runtime-${platform}-${arch}/package.json`)
 
-if (process.platform !== 'win32') {
-  fs.linkSync(path.join(mod, '../bare'), bin)
-} else {
-  fs.writeFileSync(path.join(mod, '../bare.exe'), fs.readFileSync(bin))
-}
+const bin = path.join(mod, '..', require(mod).bin.bare)
+
+fs.copyFileSync(bin, path.join(__dirname, 'bin', 'bare'))

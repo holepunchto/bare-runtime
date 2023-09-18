@@ -1,12 +1,24 @@
 {
   "name": "@holepunchto/bare-runtime-darwin-arm64",
   "version": "0.0.0",
-  "description": "The MacOS ARM 64-bit binary for bare",
-  "repository": "https://github.com/holepunchto/bare-runtime",
-  "license": "UNLICENSED",
+  "description": "The macOS ARM 64-bit binary for Bare",
   "bin": {
-    "bare": "./bare"
+    "bare": "./bin/bare"
   },
+  "files": [
+    "NOTICE",
+    "bin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/holepunchto/bare-runtime.git"
+  },
+  "author": "Holepunch",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/holepunchto/bare-runtime/issues"
+  },
+  "homepage": "https://github.com/holepunchto/bare-runtime",
   "os": [
     "darwin"
   ],

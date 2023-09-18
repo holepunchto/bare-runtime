@@ -1,31 +1,36 @@
 {
   "name": "@holepunchto/bare-runtime",
   "version": "0.0.0",
-  "description": "Get the bare runtime",
-  "main": "index.js",
+  "description": "Get the Bare runtime",
   "bin": {
-    "bare": "./bin/bare.exe",
-    "bare-dev": "./bin/bare-dev.js"
+    "bare": "./bin/bare",
+    "bare-dev": "./bin/bare-dev"
   },
+  "files": [
+    "NOTICE",
+    "bin",
+    "install.js"
+  ],
   "scripts": {
     "install": "./install.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/holepunchto/bare-runtime.git"
+  },
+  "author": "Holepunch",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/holepunchto/bare-runtime/issues"
+  },
+  "homepage": "https://github.com/holepunchto/bare-runtime",
   "dependencies": {
-    "bare-dev": "^0.3.1"
+    "bare-dev": "^0.3.11"
   },
   "optionalDependencies": {
     "@holepunchto/bare-runtime-darwin-arm64": "0.0.0",
     "@holepunchto/bare-runtime-darwin-x64": "0.0.0",
+    "@holepunchto/bare-runtime-linux-arm64": "0.0.0",
     "@holepunchto/bare-runtime-linux-x64": "0.0.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/holepunchto/bare-runtime.git"
-  },
-  "author": "Holepunch",
-  "license": "UNLICENSED",
-  "bugs": {
-    "url": "https://github.com/holepunchto/bare-runtime/issues"
-  },
-  "homepage": "https://github.com/holepunchto/bare-runtime"
+  }
 }

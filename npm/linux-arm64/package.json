@@ -1,7 +1,7 @@
 {
-  "name": "@holepunchto/bare-runtime-linux-x64",
+  "name": "@holepunchto/bare-runtime-linux-arm64",
   "version": "0.0.0",
-  "description": "The Linux Intel 64-bit binary for Bare",
+  "description": "The Linux ARM 64-bit binary for Bare",
   "bin": {
     "bare": "./bin/bare"
   },
@@ -23,6 +23,6 @@
     "linux"
   ],
   "cpu": [
-    "x64"
+    "arm64"
   ]
 }
