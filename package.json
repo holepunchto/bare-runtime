@@ -1,6 +1,6 @@
 {
   "name": "@holepunchto/bare-runtime",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Get the Bare runtime",
   "bin": {
     "bare": "./bin/bare",
