@@ -32,5 +32,9 @@
     "@holepunchto/bare-runtime-darwin-x64": "0.0.0",
     "@holepunchto/bare-runtime-linux-arm64": "0.0.0",
     "@holepunchto/bare-runtime-linux-x64": "0.0.0"
+  },
+  "publishConfig": {
+    "access": "restricted",
+    "registry": "https://npm.pkg.github.com/"
   }
 }
