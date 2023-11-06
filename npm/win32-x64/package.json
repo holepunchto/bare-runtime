@@ -1,0 +1,32 @@
+{
+  "name": "@holepunchto/bare-runtime-win32-x64",
+  "version": "0.1.0",
+  "description": "The Windows Intel 64-bit binary for Bare",
+  "bin": {
+    "bare": "./bin/bare.exe"
+  },
+  "files": [
+    "NOTICE",
+    "bin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/holepunchto/bare-runtime.git"
+  },
+  "author": "Holepunch",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/holepunchto/bare-runtime/issues"
+  },
+  "homepage": "https://github.com/holepunchto/bare-runtime",
+  "os": [
+    "win32"
+  ],
+  "cpu": [
+    "x64"
+  ],
+  "publishConfig": {
+    "access": "restricted",
+    "registry": "https://npm.pkg.github.com/"
+  }
+}
