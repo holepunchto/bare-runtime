@@ -9,10 +9,10 @@
   "files": [
     "NOTICE",
     "bin",
-    "install.js"
+    "lib"
   ],
   "scripts": {
-    "install": "./install.js"
+    "test": "standard"
   },
   "repository": {
     "type": "git",
@@ -32,6 +32,9 @@
     "@holepunchto/bare-runtime-darwin-x64": "0.1.0",
     "@holepunchto/bare-runtime-linux-arm64": "0.1.0",
     "@holepunchto/bare-runtime-linux-x64": "0.1.0"
+  },
+  "devDependencies": {
+    "standard": "^17.0.0"
   },
   "publishConfig": {
     "access": "restricted",
