@@ -28,12 +28,12 @@
     "bare-dev": "^0.3.11"
   },
   "optionalDependencies": {
-    "@holepunchto/bare-runtime-darwin-arm64": "0.1.2",
-    "@holepunchto/bare-runtime-darwin-x64": "0.1.2",
-    "@holepunchto/bare-runtime-linux-arm64": "0.1.2",
-    "@holepunchto/bare-runtime-linux-x64": "0.1.2",
-    "@holepunchto/bare-runtime-win32-arm64": "0.1.2",
-    "@holepunchto/bare-runtime-win32-x64": "0.1.2"
+    "@holepunchto/bare-runtime-darwin-arm64": "0.1.3",
+    "@holepunchto/bare-runtime-darwin-x64": "0.1.3",
+    "@holepunchto/bare-runtime-linux-arm64": "0.1.3",
+    "@holepunchto/bare-runtime-linux-x64": "0.1.3",
+    "@holepunchto/bare-runtime-win32-arm64": "0.1.3",
+    "@holepunchto/bare-runtime-win32-x64": "0.1.3"
   },
   "devDependencies": {
     "standard": "^17.0.0"
