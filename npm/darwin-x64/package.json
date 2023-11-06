@@ -1,6 +1,6 @@
 {
   "name": "@holepunchto/bare-runtime-darwin-x64",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "The macOS Intel 64-bit binary for Bare",
   "bin": {
     "bare": "./bin/bare"
