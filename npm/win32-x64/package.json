@@ -3,7 +3,7 @@
   "version": "0.1.1",
   "description": "The Windows Intel 64-bit binary for Bare",
   "bin": {
-    "bare": "./bin/bare.exe"
+    "bare": "bin/bare.exe"
   },
   "files": [
     "NOTICE",

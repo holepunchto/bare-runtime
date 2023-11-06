@@ -1,9 +1,9 @@
 {
   "name": "@holepunchto/bare-runtime-linux-arm64",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "The Linux ARM 64-bit binary for Bare",
   "bin": {
-    "bare": "./bin/bare"
+    "bare": "bin/bare"
   },
   "files": [
     "NOTICE",

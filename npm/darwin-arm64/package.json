@@ -1,9 +1,9 @@
 {
   "name": "@holepunchto/bare-runtime-darwin-arm64",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "The macOS ARM 64-bit binary for Bare",
   "bin": {
-    "bare": "./bin/bare"
+    "bare": "bin/bare"
   },
   "files": [
     "NOTICE",
