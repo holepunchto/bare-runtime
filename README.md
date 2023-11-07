@@ -1,8 +1,7 @@
-# @holepunchto/bare-runtime
+# bare-runtime
 
-Get the bare runtime without building it - mostly for ci atm
+🤫
 
-```
-npm install -g @holepunchto/bare-runtime
-bare
-```
+## License
+
+Apache-2.0
