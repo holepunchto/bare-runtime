@@ -1,5 +1,5 @@
 {
-  "name": "@holepunchto/bare-runtime-win32-x64",
+  "name": "bare-runtime-win32-x64",
   "version": "0.1.3",
   "description": "The Windows Intel 64-bit binary for Bare",
   "bin": {
@@ -25,9 +25,5 @@
   ],
   "cpu": [
     "x64"
-  ],
-  "publishConfig": {
-    "access": "restricted",
-    "registry": "https://npm.pkg.github.com/"
-  }
+  ]
 }
