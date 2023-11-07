@@ -3,7 +3,7 @@
   "version": "0.1.3",
   "description": "Prebuilt Bare binaries for macOS, Linux, and Windows",
   "bin": {
-    "bare": "./bin/bare"
+    "bare": "bin/bare"
   },
   "files": [
     "NOTICE",
