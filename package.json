@@ -24,12 +24,12 @@
   },
   "homepage": "https://github.com/holepunchto/bare-runtime",
   "optionalDependencies": {
-    "bare-runtime-darwin-arm64": "0.2.0",
-    "bare-runtime-darwin-x64": "0.2.0",
-    "bare-runtime-linux-arm64": "0.2.0",
-    "bare-runtime-linux-x64": "0.2.0",
-    "bare-runtime-win32-arm64": "0.2.0",
-    "bare-runtime-win32-x64": "0.2.0"
+    "bare-runtime-darwin-arm64": "0.3.0",
+    "bare-runtime-darwin-x64": "0.3.0",
+    "bare-runtime-linux-arm64": "0.3.0",
+    "bare-runtime-linux-x64": "0.3.0",
+    "bare-runtime-win32-arm64": "0.3.0",
+    "bare-runtime-win32-x64": "0.3.0"
   },
   "devDependencies": {
     "standard": "^17.0.0"
