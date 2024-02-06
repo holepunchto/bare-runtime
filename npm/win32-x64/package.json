@@ -1,6 +1,6 @@
 {
   "name": "bare-runtime-win32-x64",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "The Windows Intel 64-bit binary for Bare",
   "bin": {
     "bare": "bin/bare.exe"
