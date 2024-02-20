@@ -1,6 +1,6 @@
 {
   "name": "bare-runtime-darwin-arm64",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "The macOS ARM 64-bit binary for Bare",
   "bin": {
     "bare": "bin/bare"
