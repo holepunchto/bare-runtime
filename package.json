@@ -1,6 +1,6 @@
 {
   "name": "bare-runtime",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Prebuilt Bare binaries for macOS, Linux, Android, and Windows",
   "bin": {
     "bare": "bin/bare"
