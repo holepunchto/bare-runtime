@@ -2,13 +2,18 @@
   "name": "bare-runtime",
   "version": "1.0.6",
   "description": "Prebuilt Bare binaries for macOS, Linux, Android, and Windows",
+  "exports": {
+    ".": "./index.js",
+    "./spawn": "./lib/spawn.js"
+  },
   "bin": {
     "bare": "bin/bare"
   },
   "files": [
     "NOTICE",
     "bin",
-    "lib"
+    "lib",
+    "index.js"
   ],
   "scripts": {
     "test": "standard"
