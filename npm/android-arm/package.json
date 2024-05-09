@@ -1,6 +1,6 @@
 {
   "name": "bare-runtime-android-arm",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "The Android ARM 32-bit binary for Bare",
   "bin": {
     "bare": "bin/bare"
