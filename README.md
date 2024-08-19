@@ -1,6 +1,6 @@
 # bare-runtime
 
-Prebuilt Bare binaries for macOS, Linux, Android, and Windows.
+Prebuilt Bare binaries for macOS, iOS, Linux, Android, and Windows.
 
 ```
 npm i bare-runtime
