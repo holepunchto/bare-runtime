@@ -1,0 +1,28 @@
+{
+  "name": "bare-runtime-ios-x64-simulator",
+  "version": "1.5.0",
+  "description": "The iOS Intel simulator 64-bit binary for Bare",
+  "bin": {
+    "bare": "bin/bare"
+  },
+  "files": [
+    "NOTICE",
+    "bin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/holepunchto/bare-runtime.git"
+  },
+  "author": "Holepunch",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/holepunchto/bare-runtime/issues"
+  },
+  "homepage": "https://github.com/holepunchto/bare-runtime",
+  "os": [
+    "ios"
+  ],
+  "cpu": [
+    "x64"
+  ]
+}
