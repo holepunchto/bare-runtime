@@ -1,6 +1,6 @@
 {
   "name": "bare-runtime-linux-x64",
-  "version": "1.7.0",
+  "version": "1.7.1",
   "description": "The Linux Intel 64-bit binary for Bare",
   "bin": {
     "bare": "bin/bare"
