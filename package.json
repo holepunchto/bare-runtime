@@ -44,6 +44,7 @@
     "bare-runtime-win32-x64": "1.7.1"
   },
   "devDependencies": {
+    "bare-headers": "1.7.1",
     "standard": "^17.0.0"
   }
 }
