@@ -1,6 +1,6 @@
 {
   "name": "bare-runtime-linux-arm64",
-  "version": "1.7.1",
+  "version": "1.8.0",
   "description": "The Linux ARM 64-bit binary for Bare",
   "bin": {
     "bare": "bin/bare"
