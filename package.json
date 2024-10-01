@@ -15,9 +15,6 @@
     "lib",
     "index.js"
   ],
-  "scripts": {
-    "test": "standard"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/holepunchto/bare-runtime.git"
@@ -44,7 +41,6 @@
     "bare-runtime-win32-x64": "1.7.1"
   },
   "devDependencies": {
-    "bare-headers": "1.7.1",
-    "standard": "^17.0.0"
+    "bare-headers": "1.7.1"
   }
 }
