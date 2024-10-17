@@ -4,6 +4,7 @@
   "description": "Prebuilt Bare binaries for macOS, iOS, Linux, Android, and Windows",
   "exports": {
     ".": "./index.js",
+    "./package": "./package.json",
     "./spawn": "./lib/spawn.js"
   },
   "bin": {
@@ -11,10 +12,30 @@
   },
   "files": [
     "NOTICE",
+    "index.js",
     "bin",
-    "lib",
-    "index.js"
+    "lib"
   ],
+  "workspaces": [
+    "npm/*"
+  ],
+  "imports": {
+    "child_process": {
+      "bare": "bare-subprocess",
+      "default": "child_process"
+    },
+    "os": {
+      "bare": "bare-os",
+      "default": "os"
+    },
+    "path": {
+      "bare": "bare-path",
+      "default": "path"
+    }
+  },
+  "scripts": {
+    "test": "standard"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/holepunchto/bare-runtime.git"
@@ -25,6 +46,11 @@
     "url": "https://github.com/holepunchto/bare-runtime/issues"
   },
   "homepage": "https://github.com/holepunchto/bare-runtime",
+  "dependencies": {
+    "bare-os": "^3.0.1",
+    "bare-path": "^3.0.0",
+    "bare-subprocess": "^4.0.2"
+  },
   "optionalDependencies": {
     "bare-runtime-android-arm": "1.9.3",
     "bare-runtime-android-arm64": "1.9.3",
@@ -41,6 +67,6 @@
     "bare-runtime-win32-x64": "1.9.3"
   },
   "devDependencies": {
-    "bare-headers": "1.9.3"
+    "standard": "^17.0.0"
   }
 }

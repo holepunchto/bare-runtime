@@ -2,11 +2,20 @@
   "name": "bare-runtime-ios-arm64",
   "version": "1.9.3",
   "description": "The iOS ARM 64-bit binary for Bare",
+  "exports": {
+    ".": "./index.js",
+    "./package": "./package.json"
+  },
   "bin": {
     "bare": "bin/bare"
   },
   "files": [
     "NOTICE",
+    "index.js",
+    "bin",
+    "lib"
+  ],
+  "assets": [
     "bin",
     "lib"
   ],
@@ -25,5 +34,8 @@
   ],
   "cpu": [
     "arm64"
-  ]
+  ],
+  "dependencies": {
+    "require-asset": "^1.0.2"
+  }
 }

@@ -1,3 +1,4 @@
+const os = require('os')
 const path = require('path')
 
 module.exports = function runtime (referrer, opts) {
@@ -11,24 +12,26 @@ module.exports = function runtime (referrer, opts) {
   if (!opts) opts = {}
 
   const {
-    platform = process.platform,
-    arch = process.arch
+    platform = os.platform(),
+    arch = os.arch()
   } = opts
 
   const filename = path.basename(referrer)
 
-  const base = `bare-runtime-${platform}-${arch}`
-
   let mod
   try {
-    mod = require.resolve(`${base}/package.json`)
+    mod = require(`bare-runtime-${platform}-${arch}`)
   } catch (err) {
     if (err.code === 'MODULE_NOT_FOUND') {
-      throw new Error(`No binary found for target '${platform}-${arch}'`)
+      throw new Error(`No binaries found for target '${platform}-${arch}'`)
     } else {
       throw err
     }
   }
 
-  return path.join(mod, '..', require(mod).bin[filename])
+  if (filename in mod === false) {
+    throw new Error(`No binary found for target '${platform}-${arch}' for referrer '${referrer}'`)
+  }
+
+  return mod[filename]
 }

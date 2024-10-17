@@ -2,11 +2,19 @@
   "name": "bare-runtime-android-arm64",
   "version": "1.9.3",
   "description": "The Android ARM 64-bit binary for Bare",
+  "exports": {
+    ".": "./index.js",
+    "./package": "./package.json"
+  },
   "bin": {
     "bare": "bin/bare"
   },
   "files": [
     "NOTICE",
+    "index.js",
+    "bin"
+  ],
+  "assets": [
     "bin"
   ],
   "repository": {
@@ -24,5 +32,8 @@
   ],
   "cpu": [
     "arm64"
-  ]
+  ],
+  "dependencies": {
+    "require-asset": "^1.0.2"
+  }
 }
