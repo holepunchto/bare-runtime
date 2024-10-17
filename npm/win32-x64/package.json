@@ -1,6 +1,6 @@
 {
   "name": "bare-runtime-win32-x64",
-  "version": "1.9.3",
+  "version": "1.10.0",
   "description": "The Windows Intel 64-bit binary for Bare",
   "exports": {
     ".": "./index.js",
