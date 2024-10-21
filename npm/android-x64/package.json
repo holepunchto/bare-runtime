@@ -1,6 +1,6 @@
 {
   "name": "bare-runtime-android-x64",
-  "version": "1.10.0",
+  "version": "1.10.1",
   "description": "The Android Intel 64-bit binary for Bare",
   "exports": {
     ".": "./index.js",
