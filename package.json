@@ -67,6 +67,7 @@
     "bare-runtime-win32-x64": "1.11.1"
   },
   "devDependencies": {
-    "standard": "^17.0.0"
+    "prettier": "^3.3.3",
+    "prettier-config-standard": "^7.0.0"
   }
 }

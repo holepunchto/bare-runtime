@@ -1,2 +1,7 @@
 #!/usr/bin/env node
-require('../lib/spawn')(__filename, { stdio: 'inherit' }).on('exit', (exitCode) => { process.exitCode = exitCode === null ? 1 : exitCode })
+require('../lib/spawn')(__filename, { stdio: 'inherit' }).on(
+  'exit',
+  (exitCode) => {
+    process.exitCode = exitCode === null ? 1 : exitCode
+  }
+)
