@@ -1,6 +1,6 @@
 {
   "name": "bare-runtime-ios-arm64-simulator",
-  "version": "1.11.2",
+  "version": "1.12.0",
   "description": "The iOS ARM simulator 64-bit binary for Bare",
   "exports": {
     ".": "./index.js",
