@@ -49,7 +49,7 @@
   "dependencies": {
     "bare-os": "^3.0.1",
     "bare-path": "^3.0.0",
-    "bare-subprocess": "^4.0.2"
+    "bare-subprocess": "^5.0.0"
   },
   "optionalDependencies": {
     "bare-runtime-android-arm": "1.12.1",
