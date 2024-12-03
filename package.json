@@ -34,7 +34,7 @@
     }
   },
   "scripts": {
-    "test": "standard"
+    "test": "prettier . --check"
   },
   "repository": {
     "type": "git",
