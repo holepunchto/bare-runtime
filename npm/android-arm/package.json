@@ -12,10 +12,8 @@
   "files": [
     "NOTICE",
     "index.js",
-    "bin"
-  ],
-  "assets": [
-    "bin"
+    "bin",
+    "lib"
   ],
   "repository": {
     "type": "git",

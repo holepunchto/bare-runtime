@@ -1,3 +1,3 @@
-const asset = require('require-asset')
+require.asset = require('require-asset')
 
-exports.bare = asset('./bin/bare', __filename)
+exports.bare = require.asset('./bin/bare', __filename)

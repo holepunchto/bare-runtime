@@ -15,10 +15,6 @@
     "bin",
     "lib"
   ],
-  "assets": [
-    "bin",
-    "lib"
-  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/holepunchto/bare-runtime.git"
