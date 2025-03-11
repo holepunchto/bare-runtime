@@ -1,6 +1,6 @@
 {
   "name": "bare-runtime-ios-arm64",
-  "version": "1.15.2",
+  "version": "1.16.0",
   "description": "The iOS ARM 64-bit binary for Bare",
   "exports": {
     ".": "./index.js",
