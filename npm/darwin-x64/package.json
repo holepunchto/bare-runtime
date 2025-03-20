@@ -1,6 +1,6 @@
 {
   "name": "bare-runtime-darwin-x64",
-  "version": "1.16.2",
+  "version": "1.16.3",
   "description": "The macOS Intel 64-bit binary for Bare",
   "exports": {
     ".": "./index.js",
