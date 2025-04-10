@@ -1,6 +1,6 @@
 {
   "name": "bare-runtime-ios-x64-simulator",
-  "version": "1.17.3",
+  "version": "1.17.4",
   "description": "The iOS Intel simulator 64-bit binary for Bare",
   "exports": {
     ".": "./index.js",

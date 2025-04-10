@@ -1,6 +1,6 @@
 {
   "name": "bare-runtime-linux-arm64",
-  "version": "1.17.3",
+  "version": "1.17.4",
   "description": "The Linux ARM 64-bit binary for Bare",
   "exports": {
     ".": "./index.js",
