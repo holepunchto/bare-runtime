@@ -1,6 +1,6 @@
 {
   "name": "bare-runtime-linux-x64",
-  "version": "1.17.4",
+  "version": "1.17.5",
   "description": "The Linux Intel 64-bit binary for Bare",
   "exports": {
     ".": "./index.js",
