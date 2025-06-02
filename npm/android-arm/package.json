@@ -1,6 +1,6 @@
 {
   "name": "bare-runtime-android-arm",
-  "version": "1.18.3",
+  "version": "1.18.4",
   "description": "The Android ARM 32-bit binary for Bare",
   "exports": {
     ".": "./index.js",
