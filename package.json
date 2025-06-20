@@ -1,6 +1,6 @@
 {
   "name": "bare-runtime",
-  "version": "1.20.0",
+  "version": "1.20.1",
   "description": "Prebuilt Bare binaries for macOS, iOS, Linux, Android, and Windows",
   "exports": {
     ".": "./index.js",
