@@ -42,7 +42,7 @@ options = {
 
 ## CLI
 
-The module exposes a CLI that as a convenience will spawn the Bare binary that matches your platform. The <https://github.com/holepunchto/bare#usage> for details on the `bare` CLI.
+The module exposes a CLI that as a convenience will spawn the Bare binary that matches your platform. See <https://github.com/holepunchto/bare#usage> for details on the `bare` CLI.
 
 ## License
 
