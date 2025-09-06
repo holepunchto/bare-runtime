@@ -9,7 +9,7 @@ npm i [-g] bare-runtime
 ## API
 
 > [!WARNING]
-> These functions are currently subject to change between releases and are not covered Semantic Versioning. The version of the prebuilds strictly match the corresponding Bare version. If your code depends on the APIs make sure to specify a fixed version (`1.2.3`) when declaring the module dependency.
+> These functions are currently subject to change between releases and are not by covered Semantic Versioning. The version of the prebuilds strictly match the corresponding Bare version. If your code depends on the APIs make sure to specify a fixed version (`1.2.3`) when declaring the module dependency.
 
 #### `const prebuild = runtime([referrer][, options])`
 
