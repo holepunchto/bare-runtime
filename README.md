@@ -6,8 +6,6 @@ Prebuilt Bare binaries for macOS, iOS, Linux, Android, and Windows.
 npm i [-g] bare-runtime
 ```
 
-## Usage
-
 ## API
 
 > [!WARNING]
