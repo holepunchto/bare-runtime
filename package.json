@@ -24,6 +24,10 @@
       "bare": "bare-subprocess",
       "default": "child_process"
     },
+    "fs": {
+      "bare": "bare-fs",
+      "default": "fs"
+    },
     "os": {
       "bare": "bare-os",
       "default": "os"
@@ -47,6 +51,7 @@
   },
   "homepage": "https://github.com/holepunchto/bare-runtime",
   "dependencies": {
+    "bare-fs": "^4.4.4",
     "bare-os": "^3.0.1",
     "bare-path": "^3.0.0",
     "bare-subprocess": "^5.0.0"
