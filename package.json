@@ -62,19 +62,19 @@
     "bare-subprocess": "^5.0.0"
   },
   "optionalDependencies": {
-    "bare-runtime-android-arm": "1.22.0",
-    "bare-runtime-android-arm64": "1.22.0",
-    "bare-runtime-android-ia32": "1.22.0",
-    "bare-runtime-android-x64": "1.22.0",
-    "bare-runtime-darwin-arm64": "1.22.0",
-    "bare-runtime-darwin-x64": "1.22.0",
-    "bare-runtime-ios-arm64": "1.22.0",
-    "bare-runtime-ios-arm64-simulator": "1.22.0",
-    "bare-runtime-ios-x64-simulator": "1.22.0",
-    "bare-runtime-linux-arm64": "1.22.0",
-    "bare-runtime-linux-x64": "1.22.0",
-    "bare-runtime-win32-arm64": "1.22.0",
-    "bare-runtime-win32-x64": "1.22.0"
+    "bare-runtime-android-arm": "1.22.2",
+    "bare-runtime-android-arm64": "1.22.2",
+    "bare-runtime-android-ia32": "1.22.2",
+    "bare-runtime-android-x64": "1.22.2",
+    "bare-runtime-darwin-arm64": "1.22.2",
+    "bare-runtime-darwin-x64": "1.22.2",
+    "bare-runtime-ios-arm64": "1.22.2",
+    "bare-runtime-ios-arm64-simulator": "1.22.2",
+    "bare-runtime-ios-x64-simulator": "1.22.2",
+    "bare-runtime-linux-arm64": "1.22.2",
+    "bare-runtime-linux-x64": "1.22.2",
+    "bare-runtime-win32-arm64": "1.22.2",
+    "bare-runtime-win32-x64": "1.22.2"
   },
   "devDependencies": {
     "prettier": "^3.3.3",
