@@ -1,6 +1,6 @@
 {
   "name": "bare-runtime-android-ia32",
-  "version": "1.23.5",
+  "version": "1.23.6",
   "description": "The Android Intel 32-bit binary for Bare",
   "exports": {
     ".": "./index.js",
