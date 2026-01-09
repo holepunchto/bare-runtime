@@ -1,6 +1,6 @@
 {
   "name": "bare-runtime-darwin-arm64",
-  "version": "1.24.2",
+  "version": "1.25.0",
   "description": "The macOS ARM 64-bit binary for Bare",
   "exports": {
     ".": "./index.js",
