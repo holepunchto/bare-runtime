@@ -27,9 +27,7 @@ module.exports = function runtime(referrer, opts) {
   }
 
   if (filename in mod === false) {
-    throw new Error(
-      `No binary found for target '${platform}-${arch}' for referrer '${referrer}'`
-    )
+    throw new Error(`No binary found for target '${platform}-${arch}' for referrer '${referrer}'`)
   }
 
   return mod[filename]
