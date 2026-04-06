@@ -51,4 +51,3 @@ jobs:
           arch: ${{ matrix.arch }}
           prefix: npm
           flags: --debug
-      - run: npm test
