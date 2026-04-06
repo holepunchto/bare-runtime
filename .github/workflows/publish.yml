@@ -62,6 +62,8 @@ jobs:
     name: Build / ${{ matrix.platform }}-${{ matrix.arch }}${{ matrix.tags }}
     steps:
       - uses: holepunchto/actions/bare-base@v1
+        with:
+          force-install: true
       - run: |
           wget https://apt.llvm.org/llvm.sh
           chmod +x llvm.sh
@@ -88,6 +90,8 @@ jobs:
     name: Publish
     steps:
       - uses: holepunchto/actions/node-base@v1
+        with:
+          force-install: true
       - uses: holepunchto/actions/download-prebuilds@v1
         with:
           prefix: npm

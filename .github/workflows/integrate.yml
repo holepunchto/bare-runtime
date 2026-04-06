@@ -12,6 +12,8 @@ jobs:
     name: Lint
     steps:
       - uses: holepunchto/actions/node-base@v1
+        with:
+          force-install: true
       - run: npm run lint
   test:
     strategy:
@@ -30,6 +32,8 @@ jobs:
     name: Test / ${{ matrix.platform }}-${{ matrix.arch }}
     steps:
       - uses: holepunchto/actions/bare-base@v1
+        with:
+          force-install: true
       - run: |
           wget https://apt.llvm.org/llvm.sh
           chmod +x llvm.sh
