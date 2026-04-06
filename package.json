@@ -42,7 +42,8 @@
     }
   },
   "scripts": {
-    "test": "prettier . --check"
+    "format": "prettier --write . && lunte --fix",
+    "lint": "prettier --check . && lunte"
   },
   "repository": {
     "type": "git",
@@ -77,6 +78,9 @@
     "bare-runtime-win32-x64": "1.28.1"
   },
   "devDependencies": {
+    "cmake-bare": "^1.7.7",
+    "cmake-fetch": "^1.4.9",
+    "lunte": "^1.6.0",
     "prettier": "^3.3.3",
     "prettier-config-holepunch": "^2.0.0"
   }

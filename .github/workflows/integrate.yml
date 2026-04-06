@@ -1,0 +1,50 @@
+name: Integrate
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    name: Lint
+    steps:
+      - uses: holepunchto/actions/node-base@v1
+      - run: npm run lint
+  test:
+    strategy:
+      matrix:
+        include:
+          - os: ubuntu-latest
+            platform: linux
+            arch: x64
+          - os: macos-latest
+            platform: darwin
+            arch: arm64
+          - os: windows-latest
+            platform: win32
+            arch: x64
+    runs-on: ${{ matrix.os }}
+    name: Test / ${{ matrix.platform }}-${{ matrix.arch }}
+    steps:
+      - uses: holepunchto/actions/bare-base@v1
+      - run: |
+          wget https://apt.llvm.org/llvm.sh
+          chmod +x llvm.sh
+          sudo ./llvm.sh 22
+        if: ${{ matrix.platform == 'linux' }}
+      - run: brew install llvm@20
+        if: ${{ matrix.platform == 'darwin' }}
+      - run: choco upgrade llvm
+        if: ${{ matrix.platform == 'win32' }}
+      - run: choco install nasm
+        if: ${{ matrix.platform == 'win32' }}
+      - uses: holepunchto/actions/compile-prebuilds@v1
+        with:
+          platform: ${{ matrix.platform }}
+          arch: ${{ matrix.arch }}
+          prefix: npm
+          flags: --debug
+      - run: npm test
