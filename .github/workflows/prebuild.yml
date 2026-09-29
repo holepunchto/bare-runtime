@@ -61,8 +61,6 @@ jobs:
       - uses: holepunchto/actions/bare-base@v1
         with:
           force-install: true
-      - uses: holepunchto/actions/setup-llvm@v1
-      - uses: holepunchto/actions/setup-nasm@v1
       - uses: holepunchto/actions/compile-prebuilds@v1
         with:
           platform: ${{ matrix.platform }}
