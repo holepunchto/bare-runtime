@@ -5,7 +5,7 @@ find_package(cmake-fetch REQUIRED PATHS node_modules/cmake-fetch)
 
 project(bare_runtime C)
 
-fetch_package("github:holepunchto/bare@1.38.0")
+fetch_package("github:holepunchto/bare@1.39.0")
 
 add_custom_target(bare_runtime ALL)
 
